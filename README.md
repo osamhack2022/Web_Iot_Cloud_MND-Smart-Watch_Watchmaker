@@ -1,3 +1,5 @@
+![MSW](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/91794090-3af4-44e4-a987-7aab365e0ac6/2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220921T010242Z&X-Amz-Expires=86400&X-Amz-Signature=7b9fc0afeec9a5faa3a3e31da74b0d616c34abe85ce2b68b09a288e41dbad17f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222.png%22&x-id=GetObject)
+
 # ❤MSW 프로젝트 소개
 
 **국군 장병들의 신속한 상황 파악을 위한 스마트워치와 이를 활용한 부대 인원 관리 웹 플랫폼**
@@ -9,8 +11,7 @@
 
 
 # 💡기능 설명
-
-.
+soon
 
 
 
@@ -56,14 +57,14 @@
 
 
 # 🔗시스템 구성도
-
-.
+soon
 
 
 
 # 📖설치 안내
-
-.
+```
+soon
+```
 
 # ✏기술 스택
 
