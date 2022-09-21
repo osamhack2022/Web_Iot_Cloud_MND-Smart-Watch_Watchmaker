@@ -11,25 +11,16 @@
 
 
 # 💡기능 설명
-soon
-
-
-
-
-
-# 🛠계획 및 목표
-
-
 
 ### 웹 플랫폼
 
 - 관리자 로그인/로그아웃 기능
-- **인원 현황 대시보드 페이지**
-    - **각 병사 위치 확인 (출근, 퇴근, 격리, 시설이용 등)**
-    - **휴가 및 외출 인원(군번, 출타시간, 휴가기간 등)**
-    - **각 부대 전력 시각화 (훈련/실제상황 발생시 심박수 데이터로 실시간 인원 확인)**
-- 전달 사항 / 특이사항 페이지
-- 전시 상황시 지휘체계 / 심박수 기능으로 부대별 인원 확인
+- 인원 현황 대시보드
+    - 각 병사 위치 확인 (출근, 퇴근, 격리, 시설이용 등)
+    - 휴가 및 외출 인원(군번, 출타시간, 휴가기간 등)
+    - 각 부대 전력 시각화 (훈련/실제상황 발생시 심박수 데이터로 실시간 인원 확인)
+- 전달 사항 / 특이사항
+- 전시 상황시 지휘체계 / 스마트워치의 기능으로 부대별 인원 확인
 
 ### 클라우드
 
@@ -38,35 +29,37 @@ soon
 - 네트워크 구성
 
 ### Iot(아두이노)
+스마트워치 하드웨어 구성(심박수, NFC, 디스플레이, 배터리, 보드 등) → 최대한 스마트워치 디자인
+RFID/NFC 리더기(보드, RFID,NFC 리더) → 가능하다면 공군에서 사용하는 리더기처럼 디자인
 
-- 스마트워치 하드웨어 구성(심박수, NFC, 디스플레이, 배터리, 보드 등) → 최대한 스마트워치 디자인
-- RFID/NFC 리더기(보드, RFID,NFC 리더) → 가능하다면 공군에서 사용하는 리더기처럼 디자인
-
-**출입리더기**
-
+- **출입리더기**
 1. RFID/NFC 리더 후 웹플랫폼 데이터 전달
 2. 디스플레이(생략가능)
 
-**스마트워치**
-
-1. **시계 기능**
-2. **심박수기능**
-3. **NFC/RFID**
+- **스마트워치**
+1. 시계 기능
+2. 심박수기능
+3. NFC/RFID
 4. 특이사항보고
 
+
+
+# 컴퓨터 구성 / 필수 조건 안내(Prerequisites)
+soon
 
 
 # 🔗시스템 구성도
 soon
 
+# 프로젝트 사용법(Getting Started)
+soon
 
-
-# 📖설치 안내
+# 📖설치 안내(Installation Process)
 ```
 soon
 ```
 
-# ✏기술 스택
+# ✏기술 스택(Technique Used)
 
 ### Infra
 |<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">|<img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">|<img src="https://img.shields.io/badge/kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">|<img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">|
@@ -89,7 +82,7 @@ soon
 
 
 
-# 😀팀정보
+# 😀팀정보(Team Information)
 
 |이름|역할|E-Mail|Github|
 |:---:|:---:|:---:|:---:|
@@ -99,6 +92,5 @@ soon
 
 
 
-# 📜저작권 및 사용권 정보
+# 📜저작권 및 사용권 정보(Copyleft / End User License)
 - [MIT LICENSE](https://github.com/osamhack2022/Web_Iot_Cloud_MND-Smart-Watch_Watchmaker/blob/main/License)
-
