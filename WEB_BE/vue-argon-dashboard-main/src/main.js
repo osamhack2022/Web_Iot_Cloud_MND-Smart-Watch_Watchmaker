@@ -1,3 +1,4 @@
+/* 메인 JS */
 import { createApp } from "vue";
 import App from "./App.vue";
 import store from "./store";

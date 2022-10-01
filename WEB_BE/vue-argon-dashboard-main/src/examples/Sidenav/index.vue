@@ -1,3 +1,4 @@
+<!-- 사이드 메뉴 설정 -->
 <template>
   <div
     v-show="this.$store.state.layout === 'default'"
@@ -35,7 +36,7 @@
           class="navbar-brand-img h-100"
           alt="main_logo"
         />
-        <span class="ms-2 font-weight-bold me-2">Argon Dashboard 2</span>
+        <span class="ms-2 font-weight-bold me-2">MSW Admin</span>
       </router-link>
     </div>
     <hr class="mt-0 horizontal dark" />
