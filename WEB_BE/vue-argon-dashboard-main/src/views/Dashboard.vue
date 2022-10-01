@@ -5,12 +5,12 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12">
             <card
-              :title="stats.money.title"
-              :value="stats.money.value"
-              :percentage="stats.money.percentage"
-              :iconClass="stats.money.iconClass"
-              :iconBackground="stats.money.iconBackground"
-              :detail="stats.money.detail"
+              :title="stats.user.title"
+              :value="stats.user.value"
+              :percentage="stats.user.percentage"
+              :iconClass="stats.user.iconClass"
+              :iconBackground="stats.user.iconBackground"
+              :detail="stats.user.detail"
               directionReverse
             ></card>
           </div>
@@ -60,12 +60,13 @@
             <carousel />
           </div>
         </div>
-        <div class="row mt-4">
+        <div class="row mt-4"><!--
           <div class="col-lg-7 mb-lg-0 mb-4">
             <div class="card">
               <div class="p-3 pb-0 card-header">
+               
                 <div class="d-flex justify-content-between">
-                  <h6 class="mb-2">Sales by Country</h6>
+                  <h6 class="mb-2">SddCountry</h6>
                 </div>
               </div>
               <div class="table-responsive">
@@ -106,7 +107,7 @@
                 </table>
               </div>
             </div>
-          </div>
+          </div>-->
           <div class="col-lg-5">
             <categories-card />
           </div>
@@ -131,38 +132,38 @@ export default {
   data() {
     return {
       stats: {
-        money: {
-          title: "Today's Money",
-          value: "$53,000",
-          percentage: "+55%",
-          iconClass: "ni ni-money-coins",
-          detail: "since yesterday",
+        user: {
+          title: "부대 총 인원",
+          value: "+119",
+          percentage: "",
+          iconClass: "ni ni-users",
+          detail: "",
           iconBackground: "bg-gradient-primary",
         },
         users: {
-          title: "Today's Users",
-          value: "2,300",
-          percentage: "+3%",
+          title: "휴가",
+          value: "+17",
+          percentage: "",
           iconClass: "ni ni-world",
           iconBackground: "bg-gradient-danger",
-          detail: "since last week",
+          detail: "",
         },
         clients: {
-          title: "New Clients",
-          value: "+3,462",
-          percentage: "-2%",
+          title: "외출",
+          value: "+6",
+          percentage: "",
           iconClass: "ni ni-paper-diploma",
           percentageColor: "text-danger",
           iconBackground: "bg-gradient-success",
-          detail: "since last quarter",
+          detail: "",
         },
         sales: {
-          title: "Sales",
-          value: "$103,430",
-          percentage: "+5%",
+          title: "근무",
+          value: "+48",
+          percentage: "",
           iconClass: "ni ni-cart",
           iconBackground: "bg-gradient-warning",
-          detail: "than last month",
+          detail: "",
         },
       },
       sales: {
