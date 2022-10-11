@@ -5,7 +5,7 @@ import Billing from "../views/Billing.vue";
 import VirtualReality from "../views/VirtualReality.vue";
 import RTL from "../views/Rtl.vue";
 import Profile from "../views/Profile.vue";
-import Signup from "../views/Signup.vue";
+//import Signup from "../views/Signup.vue";
 import Signin from "../views/Signin.vue";
 
 const routes = [
@@ -52,7 +52,8 @@ const routes = [
   {
     path: "/signup",
     name: "Signup",
-    component: Signup,
+    //component: Signup,
+    redirect: "/api/users",
   },
   
 ];

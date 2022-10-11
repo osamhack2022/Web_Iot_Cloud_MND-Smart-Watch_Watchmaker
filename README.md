@@ -56,7 +56,29 @@ soon
 
 # 📖설치 안내(Installation Process)
 ```
-soon
+**node.js 설치**
+https://nodejs.org/en/
+v16.17.1 설치
+
+**express 설치**
+/WEB(BE)/backend/ 디렉터리에서
+npm install -g express-generator
+$ express --view=pug backend
+npm install
+
+**sqlite 설치**
+/WEB(BE)/backend/ 디렉터리에서
+npm install sqlite3
+
+**vue.js 설치**
+/WEB(FE)/vue-argon-dashboard-main/ 디렉터리에서
+npm i @vue/cli-service 
+npm i @vue/cli-plugin-babel 
+npm i @vue/cli-plugin-eslint 
+npm install -g sass-migrator
+npm install vue-router --save
+npm install axios --save
+
 ```
 
 # ✏기술 스택(Technique Used)
