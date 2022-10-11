@@ -26,6 +26,7 @@
         id="iconSidenav"
       ></i>
       <router-link class="m-0 navbar-brand" to="/">
+        <!--
         <img
           :src="
             this.$store.state.darkMode ||
@@ -36,6 +37,7 @@
           class="navbar-brand-img h-100"
           alt="main_logo"
         />
+      -->
         <span class="ms-2 font-weight-bold me-2">MSW Admin</span>
       </router-link>
     </div>

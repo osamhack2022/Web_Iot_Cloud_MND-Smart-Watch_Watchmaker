@@ -56,7 +56,29 @@ soon
 
 # 📖설치 안내(Installation Process)
 ```
-soon
+**node.js 설치**
+https://nodejs.org/en/
+v16.17.1 설치
+
+**express 설치**
+/WEB(BE)/backend/ 디렉터리에서
+npm install -g express-generator
+$ express --view=pug backend
+npm install
+
+**sqlite 설치**
+/WEB(BE)/backend/ 디렉터리에서
+npm install sqlite3
+
+**vue.js 설치**
+/WEB(FE)/vue-argon-dashboard-main/ 디렉터리에서
+npm i @vue/cli-service 
+npm i @vue/cli-plugin-babel 
+npm i @vue/cli-plugin-eslint 
+npm install -g sass-migrator
+npm install vue-router --save
+npm install axios --save
+npm install vuex
 ```
 
 # ✏기술 스택(Technique Used)
@@ -67,8 +89,8 @@ soon
 
 
 ### Front-End
-|<img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">|<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">|<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">|<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">|<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|<img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">|
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">|<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">|<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">|<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">|<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|
+|:---:|:---:|:---:|:---:|:---:|
 
 
 ### Back-End
@@ -87,7 +109,7 @@ soon
 |이름|역할|E-Mail|Github|
 |:---:|:---:|:---:|:---:|
 |최수호| PM, 프론트/백엔드 개발|snp.sanso@gmail.com|[![Github Badge](https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=white)](https://github.com/s4nso)
-|윤지성| /인프라 개발|silanon65@gmail.com|[![Github Badge](https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=white)](https://github.com/jise8893)
+|윤지성| 클라우드/인프라 개발|silanon65@gmail.com|[![Github Badge](https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=white)](https://github.com/jise8893)
 |박원| Iot(Arduino) 개발|myself9875@gmail.com|[![Github Badge](https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=white)](https://github.com/1park)
 
 
