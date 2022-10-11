@@ -1,0 +1,15 @@
+{
+  "name": "web_be",
+  "version": "1.0.0",
+  "description": "BackEnd Web Server with Node.js & Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Watchmaker",
+  "license": "ICS",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite3": "^5.1.2"
+  }
+}

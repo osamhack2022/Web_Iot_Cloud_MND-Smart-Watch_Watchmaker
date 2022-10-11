@@ -1,0 +1,10 @@
+{
+  "name": "web_fe",
+  "version": "1.0.0",
+  "description": "FrontEnd Web Server with Vue.js & Bootstrap.",
+  "author": "Watchmaker",
+  "dependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8"
+  }
+}
