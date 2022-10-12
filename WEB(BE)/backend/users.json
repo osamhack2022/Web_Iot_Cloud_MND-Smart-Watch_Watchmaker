@@ -1,27 +1,20 @@
 [
-    {
-        "name": "최수호",
-        "rank": "병장",
-        "number": "2170012345",
-        "working": "Off",
-        "location": "생활관",
-        "heartrate": 108
-    },
-
-    {
-        "name": "윤지성",
-        "rank": "병장",
-        "number": "2170023456",
-        "working": "On",
-        "location": "AAOC",
-        "heartrate": 82
-    },
-    {
-        "name": "박원",
-        "rank": "일병",
-        "number": "2270007066",
-        "working": "Off",
-        "location": "생활관",
-        "heartrate": 147
-    }
+{
+"name": "최수호",
+"belong":"공군 방공관제사령부 32전대 체계대대 운영중대",
+"rank":"병장",
+"number":"21-70006804",
+"working":"근무Off",
+"location":"생활관",
+"heartrate":108
+},
+{
+"name": "박원",
+"belong":"공군 방공관제사령부 32전대 체계대대 운영중대",
+"rank":"일병",
+"number":"22-70007066",
+"working":"근무Off",
+"location":"BX",
+"heartrate":157
+}
 ]
