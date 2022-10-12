@@ -78,6 +78,7 @@ npm i @vue/cli-plugin-eslint
 npm install -g sass-migrator
 npm install vue-router --save
 npm install axios --save
+npm install vuex
 
 ```
 

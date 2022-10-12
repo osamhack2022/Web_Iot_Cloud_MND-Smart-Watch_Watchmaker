@@ -141,31 +141,31 @@ export default {
     },
     titleDesc: {
       type: String,
-      default: "250 in stock",
+      default: "test1",
     },
     titleDesc2: {
       type: String,
-      default: "346+ sold",
+      default: "test2",
     },
     title2Desc: {
       type: String,
-      default: "123 closed",
+      default: "test3",
     },
     title4Desc: {
       type: String,
-      default: "+ 430",
+      default: "test4",
     },
     title2Desc2: {
       type: String,
-      default: "15 open",
+      default: "test5",
     },
     title3Desc: {
       type: String,
-      default: "1 is active",
+      default: "test6",
     },
     title3Desc2: {
       type: String,
-      default: "40 closed",
+      default: "test7",
     },
   },
 };

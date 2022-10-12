@@ -1,51 +1,48 @@
 {
-  "name": "msw",
-  "version": "0.1.0",
+  "name": "vue-argon-dashboard-2",
+  "version": "3.0.0",
   "private": true,
+  "author": "Creative Tim",
+  "license": "SEE LICENSE IN <https://www.creative-tim.com/license>",
+  "description": "VueJS version of Argon Dashboard 2 by Creative Tim",
+  "homepage": "https://demos.creative-tim.com/vue-argon-dashboard/",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/vue-argon-dashboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/vue-argon-dashboard.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13",
-    "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "@popperjs/core": "2.10.2",
+    "bootstrap": "5.1.3",
+    "chart.js": "3.6.0",
+    "core-js": "3.6.5",
+    "dropzone": "6.0.0-beta.1",
+    "quill": "1.3.6",
+    "vue": "3.2.0",
+    "vue-flatpickr-component": "9.0.5",
+    "vue-router": "4.0.14",
+    "vuex": "4.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "@vue/eslint-config-standard": "^6.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-vue": "^8.0.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "@vue/standard"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ]
+    "@vue/cli-plugin-babel": "4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-plugin-router": "4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/compiler-sfc": "3.2.0",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.7.2",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-vue": "7.0.0",
+    "prettier": "2.2.1",
+    "sass": "1.43.3",
+    "sass-loader": "10.1.1"
+  }
 }

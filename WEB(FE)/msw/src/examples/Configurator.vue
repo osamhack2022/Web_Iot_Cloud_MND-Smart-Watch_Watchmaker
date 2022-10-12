@@ -1,3 +1,4 @@
+<!-- 페이지 환경설정 사이드바 -->
 <template>
   <div class="fixed-plugin">
     <a
@@ -12,8 +13,8 @@
           class=""
           :class="this.$store.state.isRTL ? 'float-end' : 'float-start'"
         >
-          <h5 class="mt-3 mb-0">Argon Configurator</h5>
-          <p>See our dashboard options.</p>
+          <h5 class="mt-3 mb-0">MSW 환경설정</h5>
+          <p>웹페이지의 환경 옵션 설정입니다.</p>
         </div>
         <div
           class="mt-4"
@@ -30,7 +31,7 @@
       <div class="pt-0 card-body pt-sm-3">
         <!-- Sidebar Backgrounds -->
         <div>
-          <h6 class="mb-0">Sidebar Colors</h6>
+          <h6 class="mb-0">메뉴바 색상</h6>
         </div>
         <a href="#" class="switch-trigger background-color">
           <div
@@ -71,8 +72,8 @@
         </a>
         <!-- Sidenav Type -->
         <div class="mt-3">
-          <h6 class="mb-0">Sidenav Type</h6>
-          <p class="text-sm">Choose between 2 different sidenav types.</p>
+          <h6 class="mb-0">메뉴바 형식</h6>
+          <p class="text-sm"></p>
         </div>
         <div class="d-flex gap-2">
           <button
@@ -106,7 +107,7 @@
         <!-- Navbar Fixed -->
         <!-- Navbar Fixed -->
         <div class="mt-3 d-flex">
-          <h6 class="mb-0">Navbar Fixed</h6>
+          <h6 class="mb-0">상단 메뉴바 고정</h6>
           <div class="form-check form-switch ps-0 ms-auto my-auto">
             <input
               class="mt-1 form-check-input"
@@ -124,7 +125,7 @@
         <hr class="horizontal dark my-4" />
         <div class="mt-2 mb-5 d-flex">
           <h6 class="mb-0" :class="this.$store.state.isRTL ? 'ms-2' : ''">
-            Light / Dark
+            화이트 / 블랙
           </h6>
           <div class="form-check form-switch ps-0 ms-auto my-auto">
             <input
@@ -135,42 +136,8 @@
             />
           </div>
         </div>
-        <a
-          class="btn bg-gradient-dark w-100"
-          href="https://www.creative-tim.com/product/vue-argon-dashboard"
-          >Free Download</a
-        >
-        <a
-          class="btn btn-outline-dark w-100"
-          href="https://www.creative-tim.com/learning-lab/vue/overview/argon-dashboard/"
-          >View documentation</a
-        >
-        <div class="text-center w-100">
-          <a
-            class="github-button"
-            href="https://github.com/creativetimofficial/vue-argon-dashboard"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star creativetimofficial/vue-argon-dashboard on GitHub"
-            >Star</a
-          >
-          <h6 class="mt-3">Thank you for sharing!</h6>
-          <a
-            href="https://twitter.com/intent/tweet?text=Check%20Vue%20Argon%20Dashboard%202%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%vuejs3&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%vue-argon-dashboard"
-            class="mb-0 btn btn-dark me-2"
-            target="_blank"
-          >
-            <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
-          </a>
-          <a
-            href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/vue-argon-dashboard"
-            class="mb-0 btn btn-dark me-2"
-            target="_blank"
-          >
-            <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
-          </a>
-        </div>
+        
+        
       </div>
     </div>
   </div>
