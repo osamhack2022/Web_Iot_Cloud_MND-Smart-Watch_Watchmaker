@@ -23,7 +23,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr v-for="user in users" v-bind:key="user.index">
               <td>
                 <div class="d-flex px-2 py-1">
                   <div>
@@ -34,93 +34,26 @@
                     />
                   </div>
                   <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">{{users[0].name}}</h6>
-                    <p class="text-xs text-secondary mb-0">{{users[0].number}}</p>
+                    <h6 class="mb-0 text-sm">{{user.name}}</h6>
+                    <p class="text-xs text-secondary mb-0">{{user.number}}</p>
                   </div>
                 </div>
               </td>
               <td>
-                <p class="text-xs font-weight-bold mb-0">{{users[0].rank}}</p>
+                <p class="text-xs font-weight-bold mb-0">{{user.rank}}</p>
                 <p class="text-xs text-secondary mb-0"></p>
               </td>
               <td class="align-middle text-center text-sm">
-                <span class="badge badge-sm bg-gradient-success">{{users[0].working}}</span>
+                <div v-if = "user.working == '근무On'"> 
+                  <span class="badge badge-sm bg-gradient-success">{{user.working}}</span>
+                </div>
+                <div v-else>
+                  <span class="badge badge-sm bg-gradient-secondary">{{user.working}}</span>
+                </div>
               </td>
               <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">{{users[0].location}}</span>
+                <span class="text-secondary text-xs font-weight-bold">{{user.location}}</span>
                 <p class="text-xs text-secondary mb-0">22/10/18 17:57:08</p>
-              </td>
-              <td class="align-middle">
-                <a
-                  href="javascript:;"
-                  class="text-secondary font-weight-bold text-xs"
-                  data-toggle="tooltip"
-                  data-original-title="Edit user"
-                >관리</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="d-flex px-2 py-1">
-                  <div>
-                    <img
-                      src="../../assets/img/team-3.jpg"
-                      class="avatar avatar-sm me-3"
-                      alt="user2"
-                    />
-                  </div>
-                  <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">윤지성</h6>
-                    <p class="text-xs text-secondary mb-0">21-70001111</p>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <p class="text-xs font-weight-bold mb-0">병장</p>
-                <p class="text-xs text-secondary mb-0"></p>
-              </td>
-              <td class="align-middle text-center text-sm">
-                <span class="badge badge-sm bg-gradient-secondary">근무Off</span>
-              </td>
-              <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">22/10/18</span>
-                <p class="text-xs text-secondary mb-0">08:01:00</p>
-              </td>
-              <td class="align-middle">
-                <a
-                  href="javascript:;"
-                  class="text-secondary font-weight-bold text-xs"
-                  data-toggle="tooltip"
-                  data-original-title="Edit user"
-                >관리</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="d-flex px-2 py-1">
-                  <div>
-                    <img
-                      src="../../assets/img/team-4.jpg"
-                      class="avatar avatar-sm me-3"
-                      alt="user3"
-                    />
-                  </div>
-                  <div class="d-flex flex-column justify-content-center">
-                    <h6 class="mb-0 text-sm">박원</h6>
-                    <p class="text-xs text-secondary mb-0">22-70001112</p>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <p class="text-xs font-weight-bold mb-0">일병</p>
-                <p class="text-xs text-secondary mb-0"></p>
-              </td>
-              <td class="align-middle text-center text-sm">
-                <span class="badge badge-sm bg-gradient-success">근무On</span>
-              </td>
-              <td class="align-middle text-center">
-                <span class="text-secondary text-xs font-weight-bold">22/10/18</span>
-                <p class="text-xs text-secondary mb-0">17:59:07</p>
               </td>
               <td class="align-middle">
                 <a
@@ -166,9 +99,10 @@ export default {
   ,
   data(){
     return{
-      users: [{"name":"최수호","rank":"병장","number":"21-70006804","working":"근무On","location":"AAOC","heartrate":108},
-        {"name":"윤지성","rank":"병장","number":"21-70012345","working":"근무Off","location":"생활관","heartrate":82},
-        {"name":"박원","rank":"일병","number":"22-70007066","working":"근무On","location":"AAOC","heartrate":147,"source": "front"}]
+      users: [{"index":1,"name":"최수호","rank":"병장","number":"21-70006804","working":"근무On","location":"AAOC","heartrate":108},
+        {"index":2,"name":"윤지성","rank":"병장","number":"21-70012345","working":"근무Off","location":"생활관","heartrate":82},
+        {"index":3,"name":"박원","rank":"일병","number":"22-70007066","working":"근무On","location":"AAOC","heartrate":147,"source": "front"},
+        {"index":4,"name":"서지혁","rank":"일병","number":"22-70011066","working":"근무Off","location":"휴가","heartrate":null}]
     }
   },
 
