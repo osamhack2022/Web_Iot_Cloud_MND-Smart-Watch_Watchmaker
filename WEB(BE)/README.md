@@ -17,6 +17,8 @@ https://web-iot-cloud-mnd-smart-watch-watchmaker-rr5gw44v7vw39j4-8080.githubprev
 
 
 사이트 참조
+
+0순위 https://mrw0119.tistory.com/138?category=938676
 1순위 https://vlee.kr/4155 (vue.js <-> express/pug )
 2순위 https://velog.io/@ye050425/sqlite3Setting (sqlite사용방법)
 3순위 https://ms4hat.tistory.com/17

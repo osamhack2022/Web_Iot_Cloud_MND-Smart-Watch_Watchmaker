@@ -63,7 +63,7 @@ v16.17.1 설치
 **express 설치**
 /WEB(BE)/backend/ 디렉터리에서
 npm install -g express-generator
-$ express --view=pug backend
+express --view=pug backend
 npm install
 
 **sqlite 설치**
@@ -71,7 +71,7 @@ npm install
 npm install sqlite3
 
 **vue.js 설치**
-/WEB(FE)/vue-argon-dashboard-main/ 디렉터리에서
+/WEB(FE)/msw/ 디렉터리에서
 npm i @vue/cli-service 
 npm i @vue/cli-plugin-babel 
 npm i @vue/cli-plugin-eslint 
@@ -90,12 +90,12 @@ npm install vuex
 
 
 ### Front-End
-|<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">|<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">|<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">|<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">|<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|
+|<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">|<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">|<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">|
 |:---:|:---:|:---:|:---:|:---:|
 
 
 ### Back-End
-|<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">|<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">|<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">|
+|<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">|<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">|
 |:---:|:---:|:---:|
 
 

@@ -22,6 +22,7 @@
               <th class="text-secondary opacity-7"></th>
             </tr>
           </thead>
+
           <tbody>
             <tr v-for="user in users" v-bind:key="user.index">
               <td>
@@ -65,6 +66,7 @@
               </td>
             </tr>
           </tbody>
+
         </table>
       </div>
     </div>
@@ -72,37 +74,23 @@
 </template>
 
 <script>
-
+import axios from "axios";
 export default {
   name: "authors-table"
-
-   
   ,
   
-  created () {     //문제는 이 안에 있음..  
-      /*
-    this.$http.get('/api/users') //여기로 접속하면 데이터가 나오긴 함
-        .then((response) => {
-          this.users = response.data
-        })
-      */
-        /*
+  created () {    
     axios.get('/api/users') 
-      .then( ((response) => {
+        .then((response) => {
+          console.log(response.data)
           this.users = response.data
-        } ) )
-        */
-        //this.$http.get('/api/users')
-  }
-  
 
+        })
+  }
   ,
   data(){
     return{
-      users: [{"index":1,"name":"최수호","rank":"병장","number":"21-70006804","working":"근무On","location":"AAOC","heartrate":108},
-        {"index":2,"name":"윤지성","rank":"병장","number":"21-70012345","working":"근무Off","location":"생활관","heartrate":82},
-        {"index":3,"name":"박원","rank":"일병","number":"22-70007066","working":"근무On","location":"AAOC","heartrate":147,"source": "front"},
-        {"index":4,"name":"서지혁","rank":"일병","number":"22-70011066","working":"근무Off","location":"휴가","heartrate":null}]
+      users: {}
     }
   },
 

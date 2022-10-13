@@ -9,7 +9,7 @@
         <sidenav-item
           url="/dashboard-default"
           :class="getRoute() === 'dashboard-default' ? 'active' : ''"
-          :navText="this.$store.state.isRTL ? 'لوحة القيادة' : '대쉬보드'"
+          :navText="this.$store.state.isRTL ? 'لوحة القيادة' : '인원현황 요약'"
         >
           <template v-slot:icon>
             <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
@@ -20,7 +20,7 @@
         <sidenav-item
           url="/tables"
           :class="getRoute() === 'tables' ? 'active' : ''"
-          :navText="this.$store.state.isRTL ? 'الجداول' : '인원 관리 시스템'"
+          :navText="this.$store.state.isRTL ? 'الجداول' : '전체 인원 보기'"
         >
           <template v-slot:icon>
             <i
@@ -31,8 +31,8 @@
       </li>
       <li class="nav-item">
         <sidenav-item
-          url="/billing"
-          :class="getRoute() === 'billing' ? 'active' : ''"
+          url="/notice"
+          :class="getRoute() === 'notice' ? 'active' : ''"
           :navText="this.$store.state.isRTL ? 'الفواتیر' : '전달/특이사항'"
         >
           <template v-slot:icon>
