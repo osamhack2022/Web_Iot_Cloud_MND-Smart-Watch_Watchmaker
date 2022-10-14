@@ -52,7 +52,13 @@ soon
 soon
 
 # 프로젝트 사용법(Getting Started)
-soon
+**백엔드 구동**
+/WEB(BE)/backend/ 디렉터리에서
+$ npm run dev
+
+**프론트엔드 구동**
+$ npm run serve
+
 
 # 📖설치 안내(Installation Process)
 ```
@@ -65,6 +71,9 @@ v16.17.1 설치
 npm install -g express-generator
 express --view=pug backend
 npm install
+
+**nodemon 설치**
+npm install -g nodemon --save-dev
 
 **sqlite 설치**
 /WEB(BE)/backend/ 디렉터리에서

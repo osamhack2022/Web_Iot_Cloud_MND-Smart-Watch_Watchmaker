@@ -1,8 +1,8 @@
 {
-  "name": "vue-argon-dashboard-2",
-  "version": "3.0.0",
+  "name": "msw(FE)",
+  "version": "0.0.0",
   "private": true,
-  "author": "Creative Tim",
+  "author": "Watchmaker",
   "license": "SEE LICENSE IN <https://www.creative-tim.com/license>",
   "description": "VueJS version of Argon Dashboard 2 by Creative Tim",
   "homepage": "https://demos.creative-tim.com/vue-argon-dashboard/",
